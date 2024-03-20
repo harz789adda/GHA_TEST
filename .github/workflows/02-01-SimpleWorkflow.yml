@@ -3,10 +3,10 @@ on: push
 #on: workflow_dispatch
 jobs: 
   my-first-job:
-    runs-on: DESKTOP-5636MPU
+    runs-on: self-hosted
     steps:
       - run: echo "Hello World"
   my-second-job:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - run: echo "Bye World"
